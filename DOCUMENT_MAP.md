@@ -8,17 +8,17 @@
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    README.md                            │
-│              (Start Here - Overview)                     │
+│                    README.md                                      │
+│              (Start Here - Overview)                              │
 └────────────────────────┬────────────────────────────────┘
-                         │
-          ┌──────────────┴──────────────┐
-          │                             │
+                             │
+           ┌──────────────┴──────────────┐
+           │                                   │
 ┌─────────▼──────────┐     ┌────────────▼─────────────┐
-│  methodology.md    │     │  ai_patterns.md          │
-│  (PROCESS SSOT)    │     │  (Interaction Guide)     │
-│  - Workflow        │     │  - Trust/Verify          │
-│  - Gates & DoD     │     │  - Prompt Patterns       │
+│  methodology.md        │     │  ai_patterns.md          │
+│  (PROCESS SSOT)        │     │  (Interaction Guide)     │
+│  - Workflow              │     │  - Trust/Verify          │
+│  - Gates & DoD          │     │  - Prompt Patterns       │
 │  - Schemas         │     │  - Error Handling        │
 └─────────┬──────────┘     └──────────────────────────┘
           │
