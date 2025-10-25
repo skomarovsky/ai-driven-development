@@ -1,4 +1,3 @@
-```markdown
 # Methodology Document Relationships
 
 **Visual guide to understanding how all documents connect**
@@ -15,7 +14,10 @@ flowchart TB
   human["Human Instr"]
   ai_prompt["AI Prompt v1.2\n(Session Start)"]
 
-  
+  README --> methodology
+  README --> ai_patterns
+  methodology --> human
+  methodology --> ai_prompt
 ```
 
 ---
@@ -257,4 +259,3 @@ ai_patterns.md §6 → Handling AI Mistakes
 
 This visual guide helps you navigate the 11 methodology documents.
 Keep this handy as a reference map!
-```
