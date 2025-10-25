@@ -15,10 +15,7 @@ flowchart TB
   human["Human Instr"]
   ai_prompt["AI Prompt v1.2\n(Session Start)"]
 
-  README --> methodology
-  README --> ai_patterns
-  methodology --> human
-  methodology --> ai_prompt
+  
 ```
 
 ---
