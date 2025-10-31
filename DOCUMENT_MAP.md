@@ -63,7 +63,7 @@ flowchart TD
   MM["methodology.md (SSOT)"]
   MM --> |"References: No dependencies"| ND[No dependencies]
   MM --> |"Referenced by"| ALL[All other documents]
-  MM --> |"Update when"| U1[Process changes (rarely)]
+  MM --> |"Update when"| U1["Process changes (rarely)"]
 ```
 
 ### Human Operator Layer
@@ -95,10 +95,10 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  SCOPE[scope.md (YOUR PROJECT)]
-  DESIGN[design.md (YOUR PROJECT)]
-  TRACK[tracker.md (YOUR PROJECT)]
-  HANDOFF[handoff.md (YOUR PROJECT)]
+  SCOPE["scope.md (YOUR PROJECT)"]
+  DESIGN["design.md (YOUR PROJECT)"]
+  TRACK["tracker.md (YOUR PROJECT)"]
+  HANDOFF["handoff.md (YOUR PROJECT)"]
 
   SCOPE --> |"References"| METH4["methodology.md (implicitly follows its principles)"]
   DESIGN --> |"References"| SCOPE2["scope.md (must align with goals)"]
