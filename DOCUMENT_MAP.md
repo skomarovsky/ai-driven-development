@@ -202,8 +202,8 @@ flowchart TD
 
   DESIGN --> |"Wins for implementation decisions over"| TRACKER
 
-  note_over["Exception: If methodology.md is WRONG, fix methodology.md first,\nthen cascade changes to other docs."]:::note
-  classDef note fill:#fff4cc,stroke:#e6c200
+  note_over["Exception: If methodology.md is WRONG, fix methodology.md first,<br>then cascade changes to other docs."]:::note
+  classDef note fill:#fff4cc,stroke:#e60200
 
   METHOD -.-> note_over
 ```
