@@ -60,7 +60,7 @@ flowchart TB
 
 ```mermaid
 flowchart TD
-  MM[methodology.md (SSOT)]
+  MM["methodology.md (SSOT)"]
   MM --> |"References: No dependencies"| ND[No dependencies]
   MM --> |"Referenced by"| ALL[All other documents]
   MM --> |"Update when"| U1[Process changes (rarely)]
