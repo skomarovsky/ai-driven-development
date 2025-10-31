@@ -188,9 +188,9 @@ Day 2:
 
 ```mermaid
 flowchart TD
-  METHOD[methodology.md (SSOT)]
-  SCOPE[scope.md (Project SSOT)]
-  DESIGN[design.md (Technical SSOT)]
+  METHOD["methodology.md (SSOT)"]
+  SCOPE["scope.md (Project SSOT)"]
+  DESIGN["design.md (Technical SSOT)"]
   TRACKER[tracker.md]
 
   METHOD --> |"Always wins over"| SCOPE
