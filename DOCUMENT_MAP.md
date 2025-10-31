@@ -95,16 +95,18 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  SCOPE["scope.md (YOUR PROJECT)"]
-  DESIGN["design.md (YOUR PROJECT)"]
-  TRACK["tracker.md (YOUR PROJECT)"]
-  HANDOFF["handoff.md (YOUR PROJECT)"]
+    SCOPE["scope.md (YOUR PROJECT)"]
+    DESIGN["design.md (YOUR PROJECT)"]
+    TRACK["tracker.md (YOUR PROJECT)"]
+    HANDOFF["handoff.md (YOUR PROJECT)"]
 
-  SCOPE --> |"References"| METH4["methodology.md (implicitly follows its principles)"]
-  DESIGN --> |"References"| SCOPE2["scope.md (must align with goals)"]
-  TRACK --> |"References"| SCOPE3["scope.md (goals)"], DESIGN2["design.md (sections)"]
-  HANDOFF --> |"References"| TRACK2["tracker.md (active tasks)"], DESIGN3["decisions from design.md"]
-  HANDOFF --> |"Referenced by"| NEXT["Next session's AI prompt"]
+    SCOPE -->|"References"| METH4["methodology.md (implicitly follows its principles)"]
+    DESIGN -->|"References"| SCOPE2["scope.md (must align with goals)"]
+    TRACK -->|"References"| SCOPE3["scope.md (goals)"]
+    TRACK -->|"References"| DESIGN2["design.md (sections)"]
+    HANDOFF -->|"References"| TRACK2["tracker.md (active tasks)"]
+    HANDOFF -->|"References"| DESIGN3["design.md (decisions)"]
+    HANDOFF -->|"Referenced by"| NEXT["Next session's AI prompt"]
 ```
 
 ---
