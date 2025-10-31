@@ -329,7 +329,18 @@ A: Either write more tests (preferred) or document exception in handoff.md → R
 
 ## License & Attribution
 
-[Your license here]
+Copyright (c) 2025 Stan Komarovsky
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software for any purpose, provided that
+proper credit is given to the author:
+
+    "Based on work by Stan Komarovsky (github.com/skomarovsky/ai-driven-development)"
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 **Attribution:** Methodology developed for AI-assisted software development, October 2025.
 
